@@ -1,23 +1,13 @@
-# find-se-papers
+# Searching software engineering papers
 
 ## About
 
-A fork of [`karpathy/arxiv-sanity-lite`](https://github.com/karpathy/arxiv-sanity-lite) for software engineering papers. Intended to complement arXiv and Google Scholar.
-
-Partially integrated this with [`ZeinabAk/DatasetSEVenues`](https://github.com/ZeinabAk/DatasetSEVenues) to include published SE papers too. Have not yet loaded in all links to papers from that dataset, but do have many.
-
-## Live version
-
-[findsepapers.ca](https://findsepapers.ca)
-
-## Contributing
-Pull requests and contributions are welcome
+Search software engineering papers. See the files `QUICKSTART.md` and `Makefile` for instructions on setting up and running.
 
 ## Credits
-The code in this repository was based on the following projects:
 
-- `karpathy/arxiv-sanity-lite` by Andrej Karpathy
+- `karpathy/arxiv-sanity-lite` is the project that this project is based on.
   - [Documentation](https://github.com/karpathy/arxiv-sanity-lite/blob/master/README.md)
 
-- `ZeinabAk/DatasetSEVenues` by Zeinab Abou Khalil and Stefano Zacchiroli
+- `ZeinabAk/DatasetSEVenues` is leveraged to enable search over software engineering journals and conferences.
   - [Paper](https://arxiv.org/abs/2204.03254) 
